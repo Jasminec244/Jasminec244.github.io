@@ -1,0 +1,50 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color:#f8f9fa;
+    margin: 0;
+}
+
+.hero {
+    height: 85vh;
+    background:linear-gradient(135deg, #ff4d6d, #ffbe0b, #3a86ff);
+    background-size: 200% 200%;
+    animation: gradientMove 8s ease infinite;
+}
+
+@keyframe gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.essay-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 1.8;
+    max-width: 850px;
+    margin: 0 auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale (1.08);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.nav-link {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba (0,0,0,0.1);
+}
